@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strawberry</title>
+   <link rel="icon" href="Strawberry favicon.ico" type="image/x-icon">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden; /* This will ensure any overflow content is hidden */
+    }
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      clip-path: inset(0 0 56px 0); /* Adjust this value if needed */
+      transform: scale(1.1); /* Adjust the scale value to hide the cropped part */
+      transform-origin: center; /* Ensure scaling happens from the center */
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-container">
+    <iframe src="https://my.spline.design/random3dobjects3-W9wPjvEfUyIkZfS8QfCncVJi/"></iframe>
+  </div>
+</body>
+</html>
